@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.carousel {
+  margin: 5% 0%;
+}
+/* items */
+.items {
+  display: flex;
+  justify-content: space-around;
+}
+.card-body span {
+  margin-left: 20%;
+}
+
+.like {
+  border: none;
+   background-color: white;
+   
+}
+.del {
+  border: none;
+   background-color: white;
+}
+ .plus  {
+   border: none;
+   background-color: rgb(203, 240, 204);
+   color: blue;
+width: 10%;
+border-radius: 20px;
+  }
+.minus {
+  border: none;
+  background-color: rgb(203, 240, 204);
+  color: blue;
+  width: 10%;
+  border-radius: 20px;
+ }
+
+
+ .card-body span .price {
+  margin-left: 0%;
+}
+.like-remove {
+  display: flex;
+  justify-content: space-between;
+}
+.totale {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.totale h3 {
+  margin-top: 3%;
+}
+/* end items */
+#totale {
+  margin-top: 3%;
+  margin-left: 39%;
+  display: flex;
+  
+  
+}
+#main-footer {
+  display: flex;
+  justify-content: center;
+justify-content: space-around;
+}
